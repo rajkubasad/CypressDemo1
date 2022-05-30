@@ -1,0 +1,19 @@
+{
+  "name": "democyress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "mochaTest": "npm run test --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}

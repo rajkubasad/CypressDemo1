@@ -1,0 +1,8 @@
+{ 
+    "pageLoadTimeout":200000,
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "env": {
+        "url": "https://www.amazon.in/"
+      }
+ }
